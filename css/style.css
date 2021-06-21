@@ -1,0 +1,192 @@
+/*reset file*/
+@import url('reset.css');
+/*font file*/
+@import url('https://v1.fontapi.ir/css/Vazir');
+/*start style*/
+body {
+    direction: rtl !important;
+    font-family: 'Vazir', sans-serif !important;
+    letter-spacing: 0.03rem !important;
+}
+a {
+    text-decoration: none !important;
+}
+.height-100 {
+    height: 100% !important;
+}
+.justify-content-space-between {
+    justify-content: space-between !important;
+}
+.justify-content-space-around {
+    justify-content: space-around !important;
+}
+.rounded-50 {
+    border-radius: 50% !important;
+}
+.custom-topbar a:hover {
+    text-decoration: none !important;
+}
+.custom-topbar {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.custom-search, .castom-envelope {
+    border-radius: 0 0.5rem 0.5rem 0 !important;
+    border-left: 0 !important;
+} 
+.custom-search:focus {
+    box-shadow: none !important;
+    border-color: #ffc107 !important;
+
+}
+.custom-envelope:focus {
+    box-shadow: none !important;
+    border-color: #ffc107 !important;
+}
+.custom-btn-search, .custom-btn-envelope {
+    border-radius: 0.5rem 0 0 0.5rem !important;
+    height: 100% !important;
+}
+.fi-rr-search, .fi-rr-envelope {
+    color: white;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; 
+}
+.navbar {
+    background-color: #ffc107 !important;
+}
+.custom-navbar-icon {
+    color: white !important;
+}
+.navbar a {
+    color: white !important; 
+    transition: all ease 0.3s !important;
+    font-size: 0.9rem !important;
+}
+.navbar a:hover {
+    color: #faf9f6 !important;
+}
+.castom-dropdown-menu a {
+    color: #3d3d3d !important;
+}
+.castom-dropdown-menu a:hover {
+    color: #3d3d3d !important;
+}
+.castom-course {
+    box-shadow: #727171 0.07rem 0.07rem 1rem !important;
+    transition: all 0.4s ease !important;
+    cursor: pointer;
+}
+.row-reverse {
+    flex-direction: row-reverse !important;
+}
+.castom-price-off {
+    text-decoration: line-through !important;
+}
+.carousel-item {
+    width: 100% !important;
+    height: 20rem !important;
+}
+.castom-carousel-caption-1 h3 {
+    margin-top: -13rem !important;
+}
+.castom-carousel-caption-2 h3 {
+    margin-top: -11rem !important;
+}
+.castom-carousel-caption-3 p {
+    margin-top: -12rem !important;
+}
+.castom-btn-buy {
+    transition: all 0.5s ease !important;
+    color: #1a1a1a !important;
+}
+.castom-ad {
+    background-image: url('../img/other/back-to-school-6305092_1920.jpg') !important;
+    width: 100% !important;
+    height: 25rem !important;
+    background-size: cover !important;
+}
+.castom-card .sblayer {
+    position: relative !important;
+    display: flex !important;
+}
+.castom-card .overlay {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    opacity: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    visibility: hidden !important;
+    transition: all ease 0.3s !important;
+}
+.castom-blog:hover .overlay {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.castom-card .overlay a {
+    position: absolute !important;
+    top: 40% !important;
+    right: 25% !important;
+}
+.castom-footer {
+    background-color: #ffc107;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.32'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+    width: 100% !important;
+}
+.castom-btn:focus {
+    box-shadow: none !important;
+}
+.castom-icon-forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem !important;
+    background-color: #ffc107 !important;
+    color: white !important;
+    border-radius: 0 0.5rem 0.5rem 0 !important;
+    width: 2rem !important;
+    height: 2.4rem !important;
+    margin-left: -0.5rem !important;
+    z-index: 2 !important;
+}
+.castom-input-form:focus {
+    box-shadow: none !important;
+    border: 0.1rem solid #ffc107 !important;
+    z-index: 1 !important;
+}
+.castom-btn-cart-left {
+    border-radius: 0.3rem 0 0 0.3rem !important;
+}
+.castom-btn-cart-right {
+    border-radius: 0 0.3rem 0.3rem 0 !important;
+}
+/*end home page style*/
+/*start product page style*/
+.castom-div-w {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+@media  (min-width:992px) {
+    .dropdown-menu {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        display: block !important;
+        transition: all ease 0.3s !important;
+        top: 3rem !important;
+    }
+    .dropdown:hover .dropdown-menu {
+        visibility: visible !important;
+        opacity:1 !important;
+        display: block !important;
+        top: 2.5rem !important;
+    }
+    .castom-btn-buy:hover {
+        transform: scale(0.93) !important;
+    }
+    .castom-course:hover {
+        transform: translateY(-1rem) !important;
+    }
+}
